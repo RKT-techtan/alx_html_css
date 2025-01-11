@@ -1,0 +1,120 @@
+
+body {
+    background-image: url('path/to/your/image.jpg');
+    font-family: sans-serif;
+  }
+  .container {
+    background-color: none; /* Orange */
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      width: fit-content; /* Or a specific width, e.g., width: 300px; */
+      margin: 10 auto;
+      top: 50px;
+      left: 50px
+  }
+  button {
+    background-color: #ef6f6f; /* Green */
+    border-radius: 50px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none; /* Remove default button border */
+    cursor: pointer;
+    top: 50px;
+    left: 50px
+  }
+  header {
+    color: rgb(249, 250, 248);
+  }
+  h2 {
+    text-align: center; 
+  }
+  h5 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+  }
+  .text1 {
+  position: absolute;
+  bottom: 400;
+  left: 400;
+  width: 400%;
+  }
+  .stillbutton {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  }
+  #test1 {
+  position: relative;
+  left: 50px;
+  top: 100px;
+  color: white;
+  }
+  .container { 
+  max-width: 1000px; 
+  margin: 0 auto; 
+  }
+  #body {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  /** added this for the
+  Interactions note:
+  
+  the web page must switch to the mobile version when the screen width is 480px or less
+  links hover/active: #FF6565
+  button hover/active: opacity: 0.9
+  max width of the content: 1000px centered in the page
+  **/
+  @media (max-width: 480px) { 
+  /* Styles for screens up to 480px wide (phones) */
+  /* Example: */
+  nav ul { 
+      flex-direction: column; /* Make navigation vertical */
+  }
+  }
+  a:hover, a:active {
+  color: #FF6565; 
+  }
+  button:hover, button:active {
+  opacity: 0.9; 
+  }
+  .container { 
+  max-width: 1000px; 
+  margin: 0 auto; /* Center the container horizontally */ 
+  }
+  /** For the what we do section**/
+  .whatwedo {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .Ourresults {
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .contactus {
+    position: absolute;
+    top: 0%;
+    left: 79%;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+  }
